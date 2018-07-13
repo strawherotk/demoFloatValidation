@@ -4,6 +4,13 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("barcodescan2.controller.barcode", {
-
+		scanSuccess: function(oEvent) {
+			var sText = oEvent.getParameters().text;
+			this.getView().byId("barcodeResult").setText(sText);
+		},
+		scanFail: function(oEvent) {
+			var sText = "Scan Failed";
+			this.getView().byId("barcodeResult").setText(sText);
+		}
 	});
 });

@@ -35,10 +35,16 @@
     "blockPushLevel": "Error"
   },
   "build": {
-    "buildRequired": true,
+    "buildRequired": false,
     "sourceFolder": "webapp",
     "targetFolder": "dist",
     "excludedFolders": [],
-    "excludedFiles": []
+    "excludedFiles": [],
+    "lastBuildDateTime": "Thu, 12 Jul 2018 11:13:01 GMT"
+  },
+  "hcpdeploy": {
+    "account": "s0016142257trial",
+    "name": "barcodescan",
+    "lastVersionWeTriedToDeploy": "1"
   }
 }
