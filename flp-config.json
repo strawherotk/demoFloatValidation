@@ -6,7 +6,7 @@
         "type": "SAP_UI5_Component",
         "componentUrl": "/",
         "appUrl": "#barcodescan-Display",
-        "navigationComponentName": "barcodescan2",
+        "navigationComponentName": "barcodescan",
         "intentSemanticObject": "barcodescan",
         "intentAction": "Display",
         "html5ApplicationName": "barcodescan",

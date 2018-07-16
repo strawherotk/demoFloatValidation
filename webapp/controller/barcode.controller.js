@@ -3,7 +3,7 @@ sap.ui.define([
 ], function(Controller) {
 	"use strict";
 
-	return Controller.extend("barcodescan2.controller.barcode", {
+	return Controller.extend("barcodescan.controller.barcode", {
 		scanSuccess: function(oEvent) {
 			var sText = oEvent.getParameters().text;
 			this.getView().byId("barcodeResult").setText(sText);

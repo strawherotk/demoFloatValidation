@@ -1,11 +1,11 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"barcodescan2/model/models"
+	"barcodescan/model/models"
 ], function(UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("barcodescan2.Component", {
+	return UIComponent.extend("barcodescan.Component", {
 
 		metadata: {
 			manifest: "json"

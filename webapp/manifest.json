@@ -1,7 +1,7 @@
 {
 	"_version": "1.7.0",
 	"sap.app": {
-		"id": "barcodescan2",
+		"id": "barcodescan",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
@@ -36,7 +36,7 @@
 	},
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "barcodescan2.view.barcode",
+			"viewName": "barcodescan.view.barcode",
 			"type": "XML"
 		},
 		"dependencies": {
@@ -59,7 +59,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "barcodescan2.i18n.i18n"
+					"bundleName": "barcodescan.i18n.i18n"
 				}
 			}
 		},
