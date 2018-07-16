@@ -1,15 +1,15 @@
-<mvc:View controllerName="barcodescan2.controller.barcode" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+<mvc:View controllerName="barcodescan.controller.barcode" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true" xmlns="sap.m" xmlns:ndc="sap.ndc">
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
 				<content>
-					<FlexBox>
-					<ndc:BarcodeScannerButton scanSuccess="scanSuccess" scanFail="scanFail">
+					<FlexBox height="100px" alignItems="Center" justifyContent="Center">
+					<ndc:BarcodeScannerButton scanSuccess="scanSuccess" scanFail="scanFail" width="10em">
 						
 					</ndc:BarcodeScannerButton>
 					</FlexBox>
-					<FlexBox>
+					<FlexBox alignItems="Center" justifyContent="Center">
 					<Text id="barcodeResult"/>
 					</FlexBox>
 				</content>
