@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "hq.barcodescan",
+        "description": "test barcode scan UI5 control",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#barcodescan-Display",
+        "navigationComponentName": "barcodescan",
+        "intentSemanticObject": "barcodescan",
+        "intentAction": "Display",
+        "html5ApplicationName": "barcodescan",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "8e40d2fa-0300-4db1-a57c-048518f4e544"
+        ],
+        "contentPackages": [
+            "569e1f65-3233-45a6-b161-7c64301a6a7b"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "SAPUI5 Barcode Scan",
+        "subtitle": "Use UI5 control sap.mdx.BarcodeScan",
+        "searchKeywords": "SAPUI5 Barcode Scan,Use UI5 control sap.mdx.BarcodeScan",
+        "displayIconUrl": "sap-icon://bar-code",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
