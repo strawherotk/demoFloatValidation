@@ -74,5 +74,9 @@
 	"sap.platform.hcp": {
 		"uri": "webapp",
 		"_version": "1.1.0"
+	},
+	"sap.platform.abap": {
+		"uri": "/sap/bc/ui5_ui5/rb0g/ps_my_spec_mach/webapp",
+		"_version": "1.1.0"
 	}
 }
