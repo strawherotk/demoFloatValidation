@@ -40,11 +40,11 @@
     "targetFolder": "dist",
     "excludedFolders": [],
     "excludedFiles": [],
-    "lastBuildDateTime": "Thu, 12 Jul 2018 11:13:01 GMT"
+    "lastBuildDateTime": "Mon, 16 Jul 2018 02:58:24 GMT"
   },
   "hcpdeploy": {
     "account": "s0016142257trial",
     "name": "barcodescan",
-    "lastVersionWeTriedToDeploy": "1"
+    "lastVersionWeTriedToDeploy": "2"
   }
 }
