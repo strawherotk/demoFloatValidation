@@ -5,12 +5,22 @@
 			<Page title="{i18n>title}">
 				<content>
 					<FlexBox height="100px" alignItems="Center" justifyContent="Center">
-					<ndc:BarcodeScannerButton scanSuccess="scanSuccess" scanFail="scanFail" width="10em">
-						
-					</ndc:BarcodeScannerButton>
+						<ndc:BarcodeScannerButton scanSuccess="scanSuccess" scanFail="scanFail" width="10em"></ndc:BarcodeScannerButton>
 					</FlexBox>
 					<FlexBox alignItems="Center" justifyContent="Center">
-					<Text id="barcodeResult"/>
+						<Text id="barcodeResult"/>
+					</FlexBox>
+					<FlexBox alignItems="Center" justifyContent="Center">
+						<Label text="Input with type 'String': "/>
+						<Input textFormatter="textFormatter"></Input>
+					</FlexBox>
+					<FlexBox alignItems="Center" justifyContent="Center">
+						<Label text="Input with type 'Number': "/>
+						<Input textFormatter="textFormatter" type="Number"></Input>
+					</FlexBox>
+					<FlexBox alignItems="Center" justifyContent="Center">
+						<Label text="bound to view's JSON model: "/>
+						<Input value="{path: 'viewModel>/number', type:'sap.ui.model.type.Float'}" liveChange="onInputLiveChange" change="onInputChange"></Input>
 					</FlexBox>
 				</content>
 			</Page>
